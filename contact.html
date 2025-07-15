@@ -7,7 +7,7 @@
     </head>
     <body>
         <header>
-            <img src="imgs/favicon-32x32.png">
+            <img src="imgs/favicon-32x32.png" alt="logo">
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -39,35 +39,35 @@
                 <fieldset>
                     <legend>How did you like my site?</legend>
                     <span class="item">
-                        <input type="radio" name="score" value="1" id="1">
-                        <label for="1">1</label>
+                        <input type="radio" name="score" value="1" id="one">
+                        <label for="one">1</label>
                     </span>
 
                     <span class="item">
-                        <input type="radio" name="score" value="2" id="2">
-                        <label for="2">2</label>
+                        <input type="radio" name="score" value="2" id="two">
+                        <label for="two">2</label>
                     </span>
 
                     <span class="item">
-                        <input type="radio" name="score" value="3" id="3">
-                        <label for="3">3</label>
+                        <input type="radio" name="score" value="3" id="three">
+                        <label for="three">3</label>
                     </span>
 
                     <span class="item">
-                        <input type="radio" name="score" value="4" id="4">
-                        <label for="4">4</label>
+                        <input type="radio" name="score" value="4" id="four">
+                        <label for="four">4</label>
                     </span>
 
                     <span class="item">
-                        <input type="radio" name="score" value="5" id="5">
-                        <label for="5">5</label>    
+                        <input type="radio" name="score" value="5" id="five">
+                        <label for="five">5</label>
                     </span>
                 </fieldset>
 
                 <div class="formItem">
                     <label for="Purpose">Purpose of Contact:</label>
-                    <input list="Purpose-list" id="Purpose" name="Purpose" />
-    
+                    <input type="text" list="Purpose-list" id="Purpose" name="Purpose">
+
                     <datalist id="Purpose-list">
                         <option value="Job"></option>
                         <option value="hiring"></option>
@@ -94,8 +94,8 @@
                 </div>
 
 
-                <div class="formItem">  
-                    <input type="submit" value="Send!">
+                <div class="formItem">
+                    <button type="submit">Send</button>
                 </div>
             </form>
         </main>
